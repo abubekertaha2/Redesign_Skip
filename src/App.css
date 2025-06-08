@@ -1,0 +1,45 @@
+@import "tailwindcss";
+/* Modern Design */
+.skip-selector {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .skip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .skip-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .skip-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skip-card.selected {
+    border: 2px solid #4F46E5;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4F46E5;
+    margin: 10px 0;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .skip-grid {
+      grid-template-columns: 1fr;
+    }
+  }
