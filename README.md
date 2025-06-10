@@ -34,3 +34,6 @@ This project redesigns a skip selection interface for waste management companies
 - **Tailwind CSS** for styling
 - **Lucide React** for icons
 - **Axios** for API calls
+
+****NOTE***
+Current skip images are placeholder graphics. These will be replaced with finalized designs in future updates
